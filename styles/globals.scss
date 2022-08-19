@@ -1,0 +1,19 @@
+@use "./mixin.scss" as mixin;
+// @import url("https://use.typekit.net/nsp8kav.css"); //import typekit
+@import "_reset.scss";
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white !important;
+}
+.section {
+  &.animate {
+    h2 {
+      opacity: 1;
+    }
+    .photo {
+      img {
+        transform: scale(1);
+      }
+    }
+  }
+}
